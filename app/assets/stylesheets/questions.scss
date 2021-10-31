@@ -4,7 +4,13 @@
  $gray: #F4F4F4;
 
  body {
-   background: $gray; // Using this variable
+   background: $gray;
+ }
+
+ body > h1 {
+  font-size: 40px;
+  display: flex;
+  justify-content: start;
  }
 
  .verticalLine {
@@ -21,8 +27,9 @@
 
 a {
   display: flex;
-  font-size: 25px;
-   color: grey;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(115, 115, 218);
    &:hover {
      color: black;
   }
