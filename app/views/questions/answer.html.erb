@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title class="text-center">
+            Stupid Coaching
+        </title>
+        <style>
+            .questions {
+              margin-left: 10px;
+              line-height: 30pt;
+            }
+            .answers {
+              margin-left: 10px;
+              line-height: 30pt;
+            }
+        </style>
+    </head>
+
+  <body>
+    <div class="verticalLine">
+      <div class="questions">
+        <h2><%= params[:question] %>
+        <br> - You
+        </h2>
+      </div>
+    </div>
+
+    <div class="verticalLine">
+      <div class='answers'>
+        <h3 class='banner'><%= @answer %>
+        <br> - Your Coach
+        </h3>
+      </div>
+    </div>
+  </body>
+</head>
